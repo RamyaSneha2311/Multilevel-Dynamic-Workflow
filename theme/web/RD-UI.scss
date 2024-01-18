@@ -95,19 +95,3 @@
 .mx-navigationtree {
   background-color: transparent !important;
 }
-
-@font-face {
-  font-family: "Nexa-Book";
-  font-style: normal;
-  font-weight: 400;
-  src: local("Nexa-Book"), url("fonts/Nexa-Book.woff") format("woff");
-}
-@font-face {
-  font-family: "Nexa-Bold";
-  font-style: normal;
-  font-weight: bold;
-  src: local("Nexa-Bold"), url("fonts/Nexa-Bold.woff") format("woff");
-}
-body {
-  font-family: "Nexa-Bold";
-}
