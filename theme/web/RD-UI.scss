@@ -1,0 +1,113 @@
+.t-nav {
+  background-color: #fff !important;
+  box-shadow: 1px 2px 5px 0px #b1a9a9b0;
+  padding: 8px 8px !important;
+  img {
+    height: auto !important;
+  }
+
+  .t-toggle-btn {
+    border: none;
+    padding: 5px 0px;
+
+    img {
+      height: 25px !important;
+      margin-right: 0px;
+    }
+    &:active,
+    &:hover,
+    &:focus {
+      background-color: transparent !important;
+    }
+  }
+}
+
+.l-nav {
+  @media (min-width: 1200px) {
+    width: 180px !important;
+  }
+
+  @media (min-width: 1366px) {
+    width: 190px !important;
+  }
+  @media (min-width: 1520px) {
+    width: 200px !important;
+  }
+  @media (min-width: 1706px) {
+    width: 200px !important;
+  }
+  background-color: #eef2fd59 !important;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.14), 0px 4px 8px rgb(0 0 0 / 13%) !important;
+  .mx-navigationtree .navbar-inner > ul > li > a {
+    color: #002e5b !important;
+    border-color: #eef2fd59;
+    background-color: transparent !important;
+
+    margin: 15px 0px;
+    outline: none;
+    height: 45px !important;
+
+    @media (min-width: 1200px) {
+      font-size: 12px;
+      height: 40px !important;
+    }
+
+    @media (min-width: 1366px) {
+      font-size: 13px;
+      height: 43px !important;
+    }
+    @media (min-width: 1520px) {
+      font-size: 14px;
+      height: 45px !important;
+    }
+    @media (min-width: 1706px) {
+      font-size: 14px;
+      height: 45px !important;
+    }
+    .glyphicon {
+      margin-right: 15px;
+    }
+    &:hover {
+      border-radius: 5px !important;
+      background-color: #fa062e !important;
+      box-shadow: 1px 1px 5px 1px #00000030;
+      outline: none;
+      color: #fff !important;
+    }
+    &:active {
+      border-radius: 5px !important;
+      background-color: #fa062e !important;
+      box-shadow: 1px 1px 5px 1px #00000030;
+      outline: none;
+      color: #fff !important;
+    }
+  }
+}
+.mx-navigationtree .navbar-inner > ul > li a.active {
+  color: #fff !important;
+  border-left-color: #fff;
+  border-radius: 5px !important;
+  background-color: #f55771 !important;
+  box-shadow: 1px 1px 5px 1px #00000030;
+  outline: none;
+}
+
+.mx-navigationtree {
+  background-color: transparent !important;
+}
+
+@font-face {
+  font-family: "Nexa-Book";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Nexa-Book"), url("fonts/Nexa-Book.woff") format("woff");
+}
+@font-face {
+  font-family: "Nexa-Bold";
+  font-style: normal;
+  font-weight: bold;
+  src: local("Nexa-Bold"), url("fonts/Nexa-Bold.woff") format("woff");
+}
+body {
+  font-family: "Nexa-Bold";
+}
