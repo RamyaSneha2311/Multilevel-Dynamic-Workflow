@@ -23988,6 +23988,135 @@ input[type=checkbox].three-state-checkbox + .control-label {
   background-color: transparent !important;
 }
 
+.red-btn {
+  border: 1px solid #d33630;
+  filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.25));
+  border-radius: 4px;
+  color: #d33630;
+  margin-right: 10px;
+  padding: 7px 20px;
+}
+@media (min-width: 1200px) {
+  .red-btn {
+    font-size: 12px;
+  }
+}
+@media (min-width: 1366px) {
+  .red-btn {
+    font-size: 15px;
+  }
+}
+.red-btn:hover {
+  border: 1px solid #d33630;
+  border-radius: 4px;
+  color: #fff;
+  background: #d33630;
+}
+.red-btn:active {
+  border: 1px solid #d33630;
+  border-radius: 4px;
+  color: #fff;
+  background: #d33630;
+}
+.red-btn:focus {
+  border: 1px solid #d33630;
+  border-radius: 4px;
+  color: #fff;
+  background: #d33630;
+}
+
+.t-con {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #e8e3e3;
+}
+.t-con .mx-name-head-row {
+  background-color: #eee;
+}
+.t-con .th {
+  background-color: #eee;
+  padding: 16px;
+}
+.t-con .th .btn,
+.t-con .th .btn-default {
+  color: #fff;
+  border-color: #d33630;
+  background-color: #d33630;
+  padding: 6px 6px;
+}
+.t-con .table .table-content.infinite-loading {
+  overflow-y: auto;
+}
+.t-con .mx-grid .btn {
+  border: 1px solid #d33630;
+  filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.25));
+  border-radius: 4px;
+  color: #d33630;
+  margin-right: 10px;
+  padding: 7px 20px;
+}
+@media (min-width: 1200px) {
+  .t-con .mx-grid .btn {
+    font-size: 12px;
+  }
+}
+@media (min-width: 1366px) {
+  .t-con .mx-grid .btn {
+    font-size: 15px;
+  }
+}
+.t-con .mx-grid .btn:hover {
+  border: 1px solid #d33630;
+  border-radius: 4px;
+  color: #fff;
+  background: #d33630;
+}
+.t-con .mx-grid .btn:active {
+  border: 1px solid #d33630;
+  border-radius: 4px;
+  color: #fff;
+  background: #d33630;
+}
+.t-con .mx-grid .btn:focus {
+  border: 1px solid #d33630;
+  border-radius: 4px;
+  color: #fff;
+  background: #d33630;
+}
+
+.s-card {
+  background: #fff;
+  padding: 30px;
+  border: 1px solid #e8e3e3;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.s-card:hover {
+  box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.231372549);
+}
+.s-card img {
+  width: 40px;
+  height: 40px;
+}
+
+.lv-con {
+  margin-bottom: 10px;
+  border: 1px solid #d7d7d7;
+  border-radius: 5px;
+  padding: 10px;
+}
+.lv-con ul {
+  margin-bottom: 0px;
+}
+.lv-con ul li {
+  border-bottom: 1px solid #d7d7d7;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 .loginpage {
   background-color: #fff;
   align-items: center;
