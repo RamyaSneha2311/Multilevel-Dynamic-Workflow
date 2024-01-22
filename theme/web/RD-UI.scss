@@ -222,18 +222,24 @@
 }
 
 .t-con-1 {
+  .mx-listview .selected {
+    background: #d33630;
+    .mx-text {
+      color: #fff;
+    }
+  }
   background: #fff;
   padding: 20px;
   border: 1px solid #e8e3e3;
   .mx-tabcontainer .mx-tabcontainer-tabs > li.active > a,
   .mx-tabcontainer .mx-tabcontainer-tabs > li.active > a:hover,
   .mx-tabcontainer .mx-tabcontainer-tabs > li.active > a:focus {
-    background-color: #ff0000ad;
+    background-color: #d33630;
     color: #fff !important;
   }
   .mx-tabcontainer .mx-tabcontainer-tabs > li > a:hover,
   .mx-tabcontainer .mx-tabcontainer-tabs > li > a:focus {
-    background-color: #ff0000ad;
+    background-color: #d33630;
     color: #fff !important;
   }
   .mx-tabcontainer .mx-tabcontainer-tabs {
@@ -451,7 +457,7 @@
 }
 .c-btn {
   background: #d22630;
-
+  border: none;
   border-radius: 4px;
   color: #fff;
 
@@ -466,20 +472,20 @@
   &:hover {
     opacity: 0.8;
     background: #d22630;
-
+    border: none;
     border-radius: 4px;
     color: #fff;
   }
   &:active {
     background: #d22630;
-
+    border: none;
     border-radius: 4px;
     color: #fff;
   }
 
   &:focus {
     background: #d22630;
-
+    border: none;
     border-radius: 4px;
     color: #fff;
   }
@@ -530,6 +536,7 @@
   .tab-lined.mx-tabcontainer > .mx-tabcontainer-tabs li.active > a:hover,
   .tab-lined.mx-tabcontainer > .mx-tabcontainer-tabs li.active > a:focus {
     border-bottom: 4px solid #d33630 !important;
+    outline: none;
   }
   .mx-tabcontainer-badge {
     background-color: #d33630;
@@ -666,4 +673,15 @@
     text-decoration: none !important;
     color: #000;
   }
+  .link-btn {
+    color: #d33630;
+  }
+}
+
+.mxwc-state-badge.mxwc-state-badge-primary {
+  background: #ff7913d1;
+}
+
+.mxwc-state-badge.mxwc-state-badge-sucess {
+  background: #60d226;
 }
